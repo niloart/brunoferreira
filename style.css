@@ -16,7 +16,7 @@ li {
 body {
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 1px;
-    background: url("imagens/bcg.jpg") no-repeat top center;
+    background: url("Imagens/bcg.jpg") no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
     display: grid;
