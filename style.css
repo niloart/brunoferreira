@@ -23,9 +23,22 @@ body {
     align-items: center;
     justify-items: center;
     color: gray;
-    
-    
 }
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(43, 43, 43);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+  }
+
 
 .container {
     padding: 0 16px;
