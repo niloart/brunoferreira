@@ -120,7 +120,7 @@ body::-webkit-scrollbar {
 
 .instagram-logo:hover{
     transition-duration: 0.5s;
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(238, 38, 105))
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(247, 62, 123))
 }
 
 .whatsapp-logo{
