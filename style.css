@@ -58,6 +58,29 @@ body {
     margin: 0 auto 1rem auto;
 }
 
+.div-curriculo {
+    padding-top: 1rem;
+}
+
+.curriculo {
+    text-decoration: none;
+    color: #606060;
+    font-size: 30px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.curriculo:hover {
+    color: rgb(202, 93, 135);
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    animation: slide;
+    font-size: 35px;
+}
+
+.curriculo:active {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 0px ;
+}
+
 .redes-sociais {
     display: flex;
     justify-content: center;
