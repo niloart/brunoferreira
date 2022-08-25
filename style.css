@@ -109,7 +109,8 @@ body::-webkit-scrollbar {
 
 .linkedin-logo:hover {
     transition:0.5s;
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(37, 18, 207))
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(37, 18, 207));
+    -webkit-transform: scale(1.1);
 }
 
 .instagram-logo {
@@ -118,7 +119,8 @@ body::-webkit-scrollbar {
 
 .instagram-logo:hover{
     transition-duration: 0.5s;
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(247, 62, 123))
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(247, 62, 123));
+    -webkit-transform: scale(1.1)
 }
 
 .whatsapp-logo{
@@ -128,6 +130,7 @@ body::-webkit-scrollbar {
 .whatsapp-logo:hover {
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(62, 233, 113));
     transition-duration: 0.5s;
+    -webkit-transform: scale(1.1);
 }
 
 .profile span {
